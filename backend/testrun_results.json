@@ -1,0 +1,513 @@
+{
+	"id": "f162edec-eaeb-4ddc-bdf4-32a99a5af086",
+	"name": "udacity-fsnd-udaspicelatte",
+	"timestamp": "2020-08-22T02:02:39.667Z",
+	"collection_id": "0feef5af-5801-4daf-a4c5-88053ba12668",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 20,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bfee5db8-1e81-4c27-b833-25ada74d7a26",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 507,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains drinks array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains drinks array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				507
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains drinks array": true
+				}
+			]
+		},
+		{
+			"id": "aba39651-5d17-44d2-934d-21bd8f327f0b",
+			"name": "/drinks-detail",
+			"url": "http://localhost:5000/drinks-detail",
+			"time": 505,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				505
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "9bfefc90-a65a-4249-aadf-e85881e14ea6",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 506,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				506
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "fb0d86d0-9361-48a3-aaea-b5f86ccf95a4",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 505,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				505
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "8694c072-f984-4760-97ff-49adf42716f4",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 507,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				507
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "71bf2519-336f-4fd7-a142-162cbb21ae2a",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 506,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains drinks array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains drinks array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				506
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains drinks array": true
+				}
+			]
+		},
+		{
+			"id": "3eb885a4-d5db-44f9-8edb-c00c50116bf2",
+			"name": "/drinks-detail",
+			"url": "http://localhost:5000/drinks-detail",
+			"time": 839,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				839
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ae0e3c02-ede8-4b33-98d7-4cb90fac3b4d",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 843,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				843
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "7dabc049-28d4-427b-b0b9-43b778dda247",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 838,
+			"responseCode": {
+				"code": 403,
+				"name": "FORBIDDEN"
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				838
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			]
+		},
+		{
+			"id": "35ba512a-58aa-4d27-98d2-1fcb5fba79ca",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 834,
+			"responseCode": {
+				"code": 403,
+				"name": "FORBIDDEN"
+			},
+			"tests": {
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				834
+			],
+			"allTests": [
+				{
+					"Status code is 403": true
+				}
+			]
+		},
+		{
+			"id": "cfc44e81-4065-42d4-8bdd-d144567df1b3",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 508,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains drinks array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains drinks array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				508
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains drinks array": true
+				}
+			]
+		},
+		{
+			"id": "dbe54a15-4f4f-4866-833c-9ce316797ff6",
+			"name": "/drinks-detail",
+			"url": "http://localhost:5000/drinks-detail",
+			"time": 837,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains drinks array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains drinks array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				837
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains drinks array": true
+				}
+			]
+		},
+		{
+			"id": "41e13a33-a16a-42ee-88d6-462d8f3da83e",
+			"name": "/drinks",
+			"url": "http://localhost:5000/drinks",
+			"time": 943,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				943
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ce0f74a7-673b-4458-bdc4-2672c5f50b3c",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 6865,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"value contains drinks array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"value contains drinks array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6865
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"value contains drinks array": true
+				}
+			]
+		},
+		{
+			"id": "bb24488e-5aca-41ea-9183-6c41c8b5ff76",
+			"name": "/drinks/1",
+			"url": "http://localhost:5000/drinks/1",
+			"time": 844,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				844
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 16387,
+	"collection": {
+		"requests": [
+			{
+				"id": "bfee5db8-1e81-4c27-b833-25ada74d7a26",
+				"method": "GET"
+			},
+			{
+				"id": "aba39651-5d17-44d2-934d-21bd8f327f0b",
+				"method": "GET"
+			},
+			{
+				"id": "9bfefc90-a65a-4249-aadf-e85881e14ea6",
+				"method": "POST"
+			},
+			{
+				"id": "fb0d86d0-9361-48a3-aaea-b5f86ccf95a4",
+				"method": "PATCH"
+			},
+			{
+				"id": "8694c072-f984-4760-97ff-49adf42716f4",
+				"method": "DELETE"
+			},
+			{
+				"id": "71bf2519-336f-4fd7-a142-162cbb21ae2a",
+				"method": "GET"
+			},
+			{
+				"id": "3eb885a4-d5db-44f9-8edb-c00c50116bf2",
+				"method": "GET"
+			},
+			{
+				"id": "ae0e3c02-ede8-4b33-98d7-4cb90fac3b4d",
+				"method": "POST"
+			},
+			{
+				"id": "7dabc049-28d4-427b-b0b9-43b778dda247",
+				"method": "PATCH"
+			},
+			{
+				"id": "35ba512a-58aa-4d27-98d2-1fcb5fba79ca",
+				"method": "DELETE"
+			},
+			{
+				"id": "cfc44e81-4065-42d4-8bdd-d144567df1b3",
+				"method": "GET"
+			},
+			{
+				"id": "dbe54a15-4f4f-4866-833c-9ce316797ff6",
+				"method": "GET"
+			},
+			{
+				"id": "41e13a33-a16a-42ee-88d6-462d8f3da83e",
+				"method": "POST"
+			},
+			{
+				"id": "ce0f74a7-673b-4458-bdc4-2672c5f50b3c",
+				"method": "PATCH"
+			},
+			{
+				"id": "bb24488e-5aca-41ea-9183-6c41c8b5ff76",
+				"method": "DELETE"
+			}
+		]
+	}
+}
